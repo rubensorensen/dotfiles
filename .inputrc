@@ -1,0 +1,16 @@
+# C-backspace
+"\C-h": backward-kill-word
+
+# C-delete
+"\e[3;5~": kill-word
+"\e[3^": kill-word
+
+# C-S-delete
+"\e[3;6~": kill-line
+"\e[3@": kill-line
+
+# Move with C- up, down, right, left
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+"\eOc": forward-word
+"\eOd": backward-word
