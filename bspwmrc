@@ -7,6 +7,7 @@ xinput set-prop `xinput | grep Touchpad | awk '{print $6}' | cut -d '=' -f 2` $(
 xsetroot -cursor_name left_ptr &
 feh --bg-center ~/Pictures/wallpapers/active &
 polybar &
+picom &
 /var/lib/flatpak/exports/bin/com.github.wwmm.pulseeffects  --gapplication-service &
 xrdb $HOME/.Xresources &
 
@@ -14,6 +15,7 @@ xrdb $HOME/.Xresources &
 
 bspc config border_width         2
 bspc config window_gap          12
+bspc config top_padding         20
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
