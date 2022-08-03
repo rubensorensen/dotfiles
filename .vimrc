@@ -39,9 +39,6 @@ Plug 'preservim/nerdcommenter'
 " File structure viewer
 Plug 'preservim/tagbar'
 
-" Code completer
-Plug 'ycm-core/YouCompleteMe'
-
 " Emmet expansion
 Plug 'mattn/emmet-vim'
 
