@@ -48,9 +48,6 @@ Plug 'godlygeek/tabular'
 " Git wrapper
 Plug 'tpope/vim-fugitive'
 
-" Latex support
-Plug 'lervag/vimtex'
-
 " Font sizing
 Plug 'drmikehenry/vim-fontsize'
 
